@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG ĐĂNG KÝ THÔNG TIN SINH VIÊN</title>
+</head>
+<body> <header style="background-color:aliceblue"> 
+<h1> TRANG ĐĂNG KÝ THÔNG TIN SINH VIÊN</h1><h3>ĐẠI HỌC SƯ PHẠM THÀNH PHỐ HỒ CHÍ MINH </h3>
+    </header>
+    <section><a> <h2> Điền thông tin của bạn </h2></a></section>
+    <form action=bai1.html>
+<section> <label>Họ tên</label> </section>
+        <input type="password" placeholder="Nguyễn Văn A"> <br>
+
+        <label>Ngày sinh</label> <br>
+        <input type="date"> <br>
+
+        <label>Nơi sinh</label> <br>
+        <input type="text" placeholder="TPHCM"> <br>
+        
+        <label>Giới tính</label> <br>
+        <input type="radio" name="giới tính" value="nam"> Nam
+        <input type="radio" name="giới tính" value="nữ"> Nữ
+<br>
+        <label>Email</label> <br>
+        <input type="email" placeholder="abcd123@gmail.com"> <br>
+
+        <label>Lớp học</label> <br>
+        <select>
+            <option>CNTT.A</option>
+            <option>CNTT.B</option>
+            <option>CNTT.C</option>
+            <option>CNTT.D</option>
+            <option>KHTN.A</option>
+            <option>KHTN.B</option>
+            <option>VATLY</option>
+            <option>SPTIN</option>
+        </select> <br>
+        <button style="background-color: rgb(201, 197, 197);">Đăng ký</button>
+    </form>
+<footer style="background-color:lightcyan;">
+    <h3> 2024 - HO CHI MINH CITY UNIVERSITY OF EDUCATION </h3>
+</footer>
+
+</body>
+</html>
